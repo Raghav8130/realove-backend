@@ -1,0 +1,59 @@
+name: realove_ai
+description: Realove AI - An emotionally immersive voice companion
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # State management
+  provider: ^6.1.1
+
+  # Storage
+  shared_preferences: ^2.2.2
+
+  # Audio playback
+  audioplayers: ^5.2.1
+
+  # HTTP requests
+  http: ^1.1.0
+
+  # JSON handling
+  json_annotation: ^4.8.1
+
+  # Routing
+  go_router: ^12.1.1
+
+  # JWT handling
+  jwt_decoder: ^2.0.1
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/prompts/
+    - assets/images/
+
+flutter_intl:
+  enabled: true

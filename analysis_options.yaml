@@ -1,0 +1,23 @@
+include: package:flutter_lints/flutter.yaml
+
+# Additional lint rules
+linter:
+  rules:
+    # Optional but recommended rules
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_declarations: true
+    avoid_unnecessary_containers: true
+    sized_box_for_whitespace: true
+    use_build_context_synchronously: true
+    prefer_single_quotes: true
+    require_trailing_commas: true
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true

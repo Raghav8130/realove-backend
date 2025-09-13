@@ -1,0 +1,39 @@
+{
+  "prompts": [
+    {
+      "id": "1",
+      "text": "I'm feeling overwhelmed with work today.",
+      "emotion": "😔",
+      "gender": "female",
+      "audioUrl": "https://cdn.example.com/audio/comfort_1_female.mp3"
+    },
+    {
+      "id": "2", 
+      "text": "I had a really good day today!",
+      "emotion": "😊",
+      "gender": "male",
+      "audioUrl": "https://cdn.example.com/audio/happy_1_male.mp3"
+    },
+    {
+      "id": "3",
+      "text": "I'm worried about my future.",
+      "emotion": "😰",
+      "gender": "female", 
+      "audioUrl": "https://cdn.example.com/audio/reassure_1_female.mp3"
+    },
+    {
+      "id": "4",
+      "text": "Thank you for listening to me.",
+      "emotion": "🙏",
+      "gender": "male",
+      "audioUrl": "https://cdn.example.com/audio/gratitude_1_male.mp3"
+    },
+    {
+      "id": "5",
+      "text": "I feel lonely sometimes.",
+      "emotion": "😢",
+      "gender": "female",
+      "audioUrl": "https://cdn.example.com/audio/comfort_2_female.mp3"
+    }
+  ]
+}

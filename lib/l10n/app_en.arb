@@ -1,0 +1,33 @@
+{
+  "appTitle": "Realove AI",
+  "voicePageTitle": "Voice Companion",
+  "settingsPageTitle": "Settings",
+  "historyPageTitle": "Chat History", 
+  "onboardingTitle": "Welcome to Realove AI",
+  "onboardingSubtitle": "Your emotionally tuned voice companion",
+  "startChatting": "Start Chatting",
+  "tapToSpeak": "Tap to speak",
+  "listening": "Listening...",
+  "processing": "Processing...",
+  "male": "Male",
+  "female": "Female",
+  "english": "English",
+  "hindi": "Hindi",
+  "language": "Language",
+  "voiceGender": "Voice Gender",
+  "replyCounter": "Reply {count}",
+  "@replyCounter": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noHistory": "No chat history yet",
+  "login": "Login",
+  "logout": "Logout",
+  "settings": "Settings",
+  "history": "History",
+  "replay": "Replay",
+  "loginWithJWT": "Login with JWT Token"
+}
